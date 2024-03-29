@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=nodeproject
-          -Dsonar.projectKey=nodeproject
+          -Dsonar.projectKey=node
   security:
     runs-on: ubuntu-latest
     needs: build
